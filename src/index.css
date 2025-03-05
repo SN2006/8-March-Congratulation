@@ -1,0 +1,50 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgba(77, 67, 84, 1);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+}
+
+.glass{
+  background: rgba(234, 42, 178, 0.14);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.7px);
+  -webkit-backdrop-filter: blur(5.7px);
+  border: 1px solid rgba(234, 42, 178, 0.3);
+}
+
+.title{
+  width: 100%;
+  font-family: "Rubik Mono One", monospace;
+  font-size: 30px;
+}
+
+.text{
+  font-size: 18px;
+  text-align: start;
+}
+
+@media (max-width: 500px) {
+  .title{
+    font-size: 26px;
+  }
+}

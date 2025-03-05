@@ -1,0 +1,17 @@
+.large{
+    display: block;
+}
+
+.small{
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .small{
+        display: block;
+    }
+
+    .large{
+        display: none;
+    }
+}

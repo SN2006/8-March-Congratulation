@@ -1,0 +1,18 @@
+.greeting{
+    width: 100%;
+}
+
+.greeting-inner{
+    min-height: 100lvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.greeting__content{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
