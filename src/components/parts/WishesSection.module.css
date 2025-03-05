@@ -50,13 +50,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     gap: 20px;
 }
 
 .rotating-text{
     width: 100%;
     font-family: "Rubik Mono One", monospace;
-    font-size: 26px;
+    font-size: 24px;
     justify-content: center;
     padding: 5px 10px;
     overflow: hidden;
@@ -70,5 +71,11 @@
         grid-template-columns:1fr;
         grid-template-rows: 100lvh 100lvh;
         gap: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .rotating-text{
+        font-size: 18px;
     }
 }

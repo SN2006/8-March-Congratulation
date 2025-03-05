@@ -5,7 +5,7 @@
     align-items: center;
     z-index: 3;
     position: fixed;
-    bottom: 0;
+    bottom: 10px;
     left: 50%;
     transform: translateX(-8px);
 }
